@@ -1,0 +1,65 @@
+<!--Header will always be here -->
+<div id="navbar">
+<nav  class="navbar navbar-expand-sm bg-dark navbar-dark" >
+      <a class="navbar-brand" routerLink="/home">
+        <img height="35" class="d-inline-block align-top" src="assets/images/black1.jpg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+            <a  class="nav-link" routerLink="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/aboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" routerLink="/projects">Projects</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link"  routerLink="/resume">Resume</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link"routerLink="/contactInfo">Contact Info</a>
+            </li>    
+        </ul>
+      </div>  
+    </nav>
+  </div>
+    
+
+
+<!--Content-->
+<router-outlet></router-outlet>
+
+<br>
+<br>
+
+<!--Footer will always be here-->
+<footer class="site-footer">
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a href="" target="_blank" class="btn-social btn-facebook">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+          <a href="" target="_blank" class="btn-social btn-linkedin">
+            <i class="fa fa-linkedin"></i>
+          </a>
+      </li>
+      <li class="list-inline-item">
+          <a href="" target="_blank" class="btn-social btn-github">
+            <i class="fa fa-github"></i>
+          </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+   <div class="footer-copyright text-center py-3">© 2018 Copyright: 
+     <strong>Roger Jiang</strong>
+  </div>
+</footer>
+
